@@ -1,0 +1,42 @@
+body{
+    font-family: "Public sans", sans-serif;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.pinturas{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pinturas .pintura{
+    width: 335px;
+    height: 432px;
+    position: relative;
+}
+
+
+.pinturas .pintura .titulo{
+    font-size: 30px;
+    color: #FFF;
+    font-weight: 700;
+    position: absolute;
+    bottom: 43px;
+    left: 20px;
+}
+
+
+.pinturas .pintura .titulo span{
+    display: flex;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 7px;
+}
+
